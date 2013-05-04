@@ -4,7 +4,7 @@
 #include <vector>
 #include <boost/algorithm/string.hpp>
 #include <boost/lexical_cast.hpp>
-#include <../lib/KMeansCluster.h>
+#include <kmcluster/KMeansCluster.h>
 
 // compile:  g++ testcluster.cpp ../random/rand_isaac.cpp -I../.. -o cluster
 
