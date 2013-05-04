@@ -8,7 +8,6 @@
 #include <cmath>
 #include <boost/lexical_cast.hpp>
 #include <boost/format.hpp>
-#include <rps/random/aprand.h>
 
 using namespace std;
 
@@ -262,7 +261,7 @@ namespace rps
 
     void selectClusterCenter ()
     {
-      double pick = aprand (getTotalPointWeight ());
+      double pick = randomDouble (getTotalPointWeight ());
       double running = 0.0;
       for (size_t i=0; i<_data.size(); i++)
         {
@@ -283,6 +282,11 @@ namespace rps
       return tot;
     }
 
+    double randomDouble (double d)
+    {
+      double ret = (double)rand()/(double)RAND_MAX;
+      return ret*d;
+    }
   };
 
 }
