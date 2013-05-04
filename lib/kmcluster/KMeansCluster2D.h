@@ -11,7 +11,7 @@
 
 using namespace std;
 
-namespace rps
+namespace kmcluster
 {
   /**
    * use KMeans++ to create K cluster for the input

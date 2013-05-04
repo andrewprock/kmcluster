@@ -5,7 +5,7 @@
 #include <boost/format.hpp>
 #include "Triangle.h"
 
-namespace rps
+namespace kmcluster
 {
   typedef boost::tuple<int,int,int> triad_t;
 

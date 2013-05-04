@@ -5,7 +5,7 @@
 #include <boost/format.hpp>
 #include <boost/tuple/tuple.hpp>
 
-namespace rps
+namespace kmcluster
 {
   // use a generic boost interface for now
   typedef boost::tuple<double,double> bpoint2_t;

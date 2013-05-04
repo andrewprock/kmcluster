@@ -15,7 +15,7 @@
 
 using namespace std;
 
-namespace rps
+namespace kmcluster
 {
   struct PointND
   {
